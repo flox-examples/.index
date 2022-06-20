@@ -2,100 +2,100 @@
   description = "A very basic flake";
 
   inputs.".flox" = {
-    url = "github:flox-examples/.flox";
+    url = "git+ssh://git@github.com/flox-examples/.flox";
     inputs.capacitor.follows = "capacitor";
   };
   inputs."company" = {
-    url = "github:flox-examples/company";
+    url = "git+ssh://git@github.com/flox-examples/company";
     inputs.capacitor.follows = "capacitor";
   };
   inputs."functional-friends" = {
-    url = "github:flox-examples/functional-friends";
+    url = "git+ssh://git@github.com/flox-examples/functional-friends";
     inputs.capacitor.follows = "capacitor";
   };
   inputs."hello-rust" = {
-    url = "github:flox-examples/hello-rust/flakes2";
+    url = "git+ssh://git@github.com/flox-examples/hello-rust?ref=flakes2";
     inputs.capacitor.follows = "capacitor";
   };
 
   inputs."templates" = {
-    url = "github:flox-examples/templates";
+    url = "git+ssh://git@github.com/flox-examples/templates";
     inputs.capacitor.follows = "capacitor";
   };
   inputs."black" = {
-    url = "github:flox-examples/black";
+    url = "git+ssh://git@github.com/flox-examples/black";
     inputs.capacitor.follows = "capacitor";
   };
 
   inputs."companypkgs" = {
-    url = "github:flox-examples/companypkgs";
+    url = "git+ssh://git@github.com/flox-examples/companypkgs";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
   inputs."hello-go" = {
-    url = "github:flox-examples/hello-go";
+    url = "git+ssh://git@github.com/flox-examples/hello-go";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
   inputs."hello-perl" = {
-    url = "github:flox-examples/hello-perl";
+    url = "git+ssh://git@github.com/flox-examples/hello-perl";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
   inputs."hello-python-library" = {
-    url = "github:flox-examples/hello-python-library";
+    url = "git+ssh://git@github.com/flox-examples/hello-python-library";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."hello-python" = {
-    url = "github:flox-examples/hello-python";
+    url = "git+ssh://git@github.com/flox-examples/hello-python";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."hello-haskell-library" = {
-    url = "github:flox-examples/hello-haskell-library";
+    url = "git+ssh://git@github.com/flox-examples/hello-haskell-library";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."hello-haskell" = {
-    url = "github:flox-examples/hello-haskell";
+    url = "git+ssh://git@github.com/flox-examples/hello-haskell";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."hello-go-library" = {
-    url = "github:flox-examples/hello-go-library";
+    url = "git+ssh://git@github.com/flox-examples/hello-go-library";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
 
   inputs."teampkgs" = {
-    url = "github:flox-examples/teampkgs";
+    url = "git+ssh://git@github.com/flox-examples/teampkgs";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."teampkgs2" = {
-    url = "github:flox-examples/teampkgs2";
+    url = "git+ssh://git@github.com/flox-examples/teampkgs2";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
   inputs."simple-site" = {
-    url = "github:flox-examples/simple-site";
+    url = "git+ssh://git@github.com/flox-examples/simple-site";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
   inputs."floxpkgs" = {
-    url = "github:flox-examples/floxpkgs";
+    url = "git+ssh://git@github.com/flox-examples/floxpkgs";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
 
   inputs."dotfiles" = {
-    url = "github:flox-examples/dotfiles";
+    url = "git+ssh://git@github.com/flox-examples/dotfiles";
     inputs.capacitor.follows = "capacitor";
     flake = false;
   };
